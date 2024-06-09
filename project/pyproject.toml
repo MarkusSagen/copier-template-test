@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "{{module_name}}"
+version = "0.1.0"
+description = ""
+authors = ["Markus Sagen <Markus.John.Sagen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<=3.11"
+sklearn = "*"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "0.4.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
