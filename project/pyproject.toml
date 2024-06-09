@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<=3.11"
-sklearn = "*"
+scikit-learn = "0.1.4"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "0.4.8"
